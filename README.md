@@ -1,4 +1,4 @@
-$ pkkg install update && install upgrade
+$ pkg install update && install upgrade
 
 $ pkg install git
 
@@ -8,9 +8,11 @@ $ pkg install python
 
 $ pkg install pip
 
+
 $ pip2 install mechanize
 
 $ pip2 install requests
+
 
 $ python3 -m pip install --upgrade pip
 
