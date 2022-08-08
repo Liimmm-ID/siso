@@ -43,13 +43,13 @@ for xd in range(10000):
 	ugen2.append(uaku)
 
 
-	aa='Mozilla/5.0 (Linux; U; Android'
+	aa='Mozilla/5.0 (Linux; Android'
 	b=random.choice(['6','7','8','9','10','11','12'])
-	c='ru-ru;'
+	c='BG2-U01'
 	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
 	e=random.randrange(1, 999)
 	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-	g='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
+	g='AppleWebKit/537.36 (KHTML, seperti Gecko) Versi/4.0 Chrome/'
 	h=random.randrange(73,100)
 	i='0'
 	j=random.randrange(4200,4900)
@@ -154,13 +154,13 @@ def banner():
 ║[•] GRUP FB  :GRUP PAMER CRACK           ║
 ║[•] VERSION  :3.1.0                      ║
 ╚═════{sir}WARNING{x}═════════════════════════════╝
-               ╚═══════════╗o00═════════════•0^0•═════════════00o╗
-                           ║    \33[1;42mYA TUHAN JIKA DI JODOH KU MAKA\33[0m   ║
-                           ║      \33[1;42mDEKATKAN LAH JIKA DIA BUKAN\33[0m    ║
-                           ║              \33[1;42mJODOH KU\33[0m               ║
-                           ║               \33[1;42mBATU😂\33[0m                ║
-                           ║      \33[1;42mNOTE:BUDAYAKAN MEMBACA\33[0m         ║{x}
-                           ╚═════════════════════════════════════╝''')
+               ╚═══════════╗o00════════════•0^0•═════════════00o╗
+                           ║   \33[1;42mYA TUHAN JIKA DI JODOH KU MAKA\33[0m   ║
+                           ║     \33[1;42mDEKATKAN LAH JIKA DIA BUKAN\33[0m    ║
+                           ║             \33[1;42mJODOH KU\33[0m               ║
+                           ║              \33[1;42mBATU😂\33[0m                ║
+                           ║       \33[1;42mNOTE:BUDAYAKAN MEMBACA\33[0m       ║{x}
+                           ╚════════════════════════════════════╝''')
 
 #--------------------[ BAGIAN-MASUK ]--------------#
 def login():
@@ -189,7 +189,7 @@ def login_lagi334():
 		cetak(nel('\t                MASUKAN COUKKIES NYA PAK'))
 		asu = random.choice([m,k,h,b,u])
 		cookie=input(f'      [{h}•{x}]{hh} Masukkan Cookies{x} :{hh} ')
-		data = requests.get("https://business.facebook.com/business_locations", headers = {"user-agent":"Mozilla/5.0 (Linux; U; Android 11; ru-ru; Redmi Note 8T Build/RKQ1.201004.002) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/89.0.4389.116 Mobile Safari/537.36 XiaoMi/MiuiBrowser/13.6.0-gn","referer": "https://www.facebook.com/","host": "business.facebook.com","origin": "https://business.facebook.com","upgrade-insecure-requests" : "1","accept-language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7","cache-control": "max-age=0","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8","content-type":"text/html; charset=utf-8"}, cookies = {"cookie":cookie}) 
+		data = requests.get("https://business.facebook.com/business_locations", headers = {"user-agent":"Mozilla/5.0 (Linux; Android 7.0; BG2-U01 Build/HUAWEIBG2-U01; wv) AppleWebKit/537.36 (KHTML, seperti Gecko) Versi/4.0 Chrome/103.0.5060.129 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/376.0. 0.12.108;]","referer": "https://www.facebook.com/","host": "business.facebook.com","origin": "https://business.facebook.com","upgrade-insecure-requests" : "1","accept-language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7","cache-control": "max-age=0","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8","content-type":"text/html; charset=utf-8"}, cookies = {"cookie":cookie}) 
 		find_token = re.search("(EAAG\w+)", data.text)
 		ken=open(".token.txt", "w").write(find_token.group(1))
 		cok=open(".cok.txt", "w").write(cookie)
